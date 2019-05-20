@@ -12,19 +12,19 @@
       width: 100px;
       height: 100px;
       background-position: 0 0;
-      transition: background-position 1s steps(28);
     }
 
-    .like:hover {
+    .like:focus {
       background-position: -2800px 0;
+      transition: background-position 1s steps(28);
     }
   </style>
 </head>
 
 <body>
-  <div class="like">
-
+  <div class="like" tabindex="-1">
   </div>
+  <!-- <div tabindex=""></div> -->
 </body>
 
 </html>
